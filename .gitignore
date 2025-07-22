@@ -1,0 +1,29 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.env/
+.venv/
+venv/
+ENV/
+env/
+
+# Distribution / packaging files
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs/editors (optional)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
