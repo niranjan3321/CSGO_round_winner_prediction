@@ -1,6 +1,6 @@
-# 🎯 CS:GO Round Winner Prediction
+# CS:GO Round Winner Prediction
 
-## 📌 Overview
+## Overview
 This project builds a machine learning pipeline to **predict Counter-Strike: Global Offensive (CS:GO) round winners** — either **Counter-Terrorists (CT)** or **Terrorists (T)** — using in-game round-level data such as:
 - Player health and armor
 - Team economy and equipment
@@ -13,7 +13,7 @@ The notebook explores **data preprocessing**, **exploratory data analysis (EDA)*
 
 ---
 
-## 📊 Dataset
+## Dataset
 - **Source:** [OpenML](https://www.openml.org/) – CS:GO rounds dataset  
 - **Size:** ~122,000 rounds  
 - **Features:** 97+ columns including numerical, categorical, and binary weapon/utility indicators  
@@ -21,7 +21,7 @@ The notebook explores **data preprocessing**, **exploratory data analysis (EDA)*
 
 ---
 
-## 🧪 Methodology
+## Methodology
 
 1. **Data Loading & Cleaning**
    - Imported raw `.arff`-style dataset from OpenML
@@ -56,7 +56,7 @@ The notebook explores **data preprocessing**, **exploratory data analysis (EDA)*
 
 ---
 
-## 📈 Results
+## Results
 
 | Model                  | Accuracy | Notes |
 |------------------------|----------|-------|
@@ -71,14 +71,10 @@ The notebook explores **data preprocessing**, **exploratory data analysis (EDA)*
 
 ---
 
-## 🚀 Future Work
+## Future Work
 - **Real-time prediction** by integrating with live CS:GO match data feeds
 - **Advanced models** like XGBoost, LightGBM, CatBoost
 - **Hyperparameter tuning** for Random Forest and boosting models
 - **Explainability** with SHAP values and feature visualizations
 - **Dashboard/Visualization** for analysts and spectators
 - **API deployment** for live match integrations
-
----
-
-## 📂 Repository Structure
